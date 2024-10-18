@@ -1,0 +1,42 @@
+.collapse-arrow {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.collapse-arrow:hover {
+  transform: scale(1.2);
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #1a1a1a;
+  color: white;
+  transition: width 0.4s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.sidebar.collapsed {
+  width: 50px;
+}
+
+.sidebar-content button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: none;
+  border: none;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+}
+
+.sidebar-content button:hover {
+  background-color: royalblue;
+}

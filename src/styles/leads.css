@@ -1,0 +1,20 @@
+.leads-container {
+  padding: 20px;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+}
+
+.leads-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.lead-card {
+  background-color: royalblue;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
